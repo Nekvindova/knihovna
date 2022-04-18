@@ -175,7 +175,7 @@ text-align: center;
 }
 .cara2 {
 border-bottom: 1px solid;
-color: #dee0e0;
+color: #808080;
 height: 20px;
 width: 80%;
 margin: auto;
@@ -298,6 +298,12 @@ font-size: 35px;
 width: 360px;
 }
 .cara2 {
+border-bottom: none;
+border-right: 1px solid;
+color: #808080;
+width: 0%;
+height: 80%;
+float: left;
 margin-top: 20px;
 }
 section,.hl h3 p {
@@ -388,6 +394,12 @@ padding: 10px 50px 20px 0px;
 max-width: 150px;
 }
 .cara2 {
+border-bottom: none;
+border-right: 1px solid;
+color: #808080;
+width: 0%;
+height: 80%;
+float: left;
 margin-top: 15px;
 }
 section,.hl h3 p {
@@ -403,6 +415,7 @@ float: left;
 }
 @media only screen and (min-width: 1020px) {
 .cara2 {
+height: 80%;
 margin-top: 20px;
 }
 footer section {
